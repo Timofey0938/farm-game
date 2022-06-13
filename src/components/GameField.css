@@ -1,0 +1,9 @@
+.game-field {
+  height: 1120px;
+  width: 1120px;
+  margin: 60px auto 0 auto;
+}
+
+.row {
+  display: flex;
+}

@@ -1,0 +1,37 @@
+.error {
+  width: 100vw;
+  animation: fading-up;
+  animation-duration: 1.2s;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 0 1px rgb(174, 15, 15), 
+    0 1px 1px rgb(174, 15, 15), 
+    -1px 0 1px rgb(174, 15, 15), 
+    0 -1px 1px rgb(174, 15, 15);
+  z-index: 30;
+  position: fixed;
+  top: 0;
+}
+
+
+@keyframes fading-up {   
+  0% {     
+    margin-top: 200px;
+    opacity: 1;
+  }
+
+  20% {     
+    margin-top: 200px;
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0;
+  }
+
+  100% {
+    margin-top: 100px;
+    opacity: 0;
+  }
+}

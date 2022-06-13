@@ -1,0 +1,60 @@
+.tablo-container {
+  width: 1100px;
+  margin: 0 auto;
+  position: sticky;
+  top: 30px;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.button {
+  height: 80px;
+  width: 80px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #23B14D;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+.buttonImg {
+  height: 60px;
+  width: 60px;
+}
+
+.tablo {
+  height: 80px;
+  width: 750px;
+  padding: 5px 20px;
+  font-size: 22px;
+  color: #fff;
+  border-radius: 10px;
+  border: 2px solid #000;
+  background-color: #23B14D;
+  display: flex;
+}
+
+.energy-block {
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+
+.energy-image {
+  height: 30px;
+  width: 30px;
+}
+
+.energy-text {
+  font-size: 30px;
+}
+
+table {
+  margin-right: 30px;
+}
+
+td {
+  padding-left: 10px;
+}

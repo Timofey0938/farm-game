@@ -1,0 +1,22 @@
+.field-cell-container {
+  position: relative;
+}
+
+.hover {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  background-color: rgba(256, 256, 256, 0.3);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.blue-hover {
+  background-color: rgba(84, 64, 173, 0.5);
+}
+
+.red-hover {
+  background-color: rgba(221, 23, 23, 0.6);
+}
